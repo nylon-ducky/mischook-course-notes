@@ -1,0 +1,27 @@
+web development and web programming mean the same thing.
+ web apps are any web program, like a browser or wordpress or anything like that.
+
+client vs server computers. 
+ software is the only real difference. sewrver computers have server software to handle client requests and server responses known as the request/response cycle.
+   server is the app that sends out responses
+
+TLD == Top Level Domain 
+ meaning the extension  
+  .com .net .ca .pizza .jobs
+
+WYSIWYG 
+ I didnt know what this was once when i saw it in a job listing on indeed. but of course, i googled it right away. its a code editor that lets you see the changes or progress youre maing in real time. basically as if viewing it on a localhost or if you wrote some JS to make trhe browser refresh at a set interval.
+
+wordpress
+ a CMS
+ i know theres two different branches of wordpress. one where you can make say, a blog or something, and one where you can actually build a site with themes and plugins and things. the latter is the big one that we will most likely be hearing about here.
+
+ he covered both wordpress.com (the basic) and wordpress.org (self hosted)
+ other CMS options are joomla and drupal, which i have heard of, but wasnt totally sure what they were.
+
+Websites vs. Web apps
+ web apps are just websites that are also apps. any website with a database is a web app. web apps will have content that changes (dynamic content). 
+
+target=""
+ in <a> tags, the target can be somethiong individual, like the name of the site youre sending them to. for instance, <a target="_google" href="http://www.google.com">Go to google in a new tab</a>
+

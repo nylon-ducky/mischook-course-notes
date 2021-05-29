@@ -1,2 +1,2 @@
 # mischook-course-notes
-Taking Stefan Mischook's web developer course  and wanted to make a separate repo for notes on his course
+Taking Stefan Mischook's web developer course. Although I have the basics down really well, I figured theres still plenty to learn, especially when it comees to what I'll actually need to know to work in the industry. Because that's something I've been wondering for a long time. What will I actually need to know and use daaily for the job? Also I wanted to make a separate repo for notes on his course so that theyre here any time I need to look back at them.
