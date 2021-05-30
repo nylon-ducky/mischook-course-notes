@@ -25,3 +25,21 @@ Websites vs. Web apps
 target=""
  in <a> tags, the target can be somethiong individual, like the name of the site youre sending them to. for instance, <a target="_google" href="http://www.google.com">Go to google in a new tab</a>
 
+jpeg
+ use jpeg for real life photos
+ HD
+
+png
+ use png for immages that have solid lines like ilustrations or icons
+ png (accordint to mischook) is the most advanced image format
+ Also HD but not as good for photos
+ best for transparency and grading/fading/blending
+ Larger file size for photos
+
+gif
+ not HD
+ tiny file size
+ great for animations and small icons
+
+
+
