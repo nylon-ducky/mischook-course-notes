@@ -41,5 +41,30 @@ gif
  tiny file size
  great for animations and small icons
 
+<span>
+ the span tag is an inline element whereas div is block Level
 
+query string
+ all additional information that gets passed into the url is called a query string.
+
+<meta name=""
+ the ones youll see on every web page are:
+ charset, description, keywords, author, viewport
+   There are many more you could add but theyre less common
+
+CSS selector prioritization
+ CSS doesnt just go with whatever declaration was set last, but will plaace more importance on an elements id styling.
+ an elements individual id styling is prioritized over class or html selectors.
+
+
+CSS selectors
+ p .italic vs p.italic
+  if using p.italic, that means any paragraph element with class italic, but...
+    p .italic
+     this here means any element within a p tag that has a class of italic.
+  so the space in between selectors means the first one is the parent and the second selector must be a child to that parent.
+
+  there is also of course the comma seperating selectors which just means anything in this list must be styled like so.
+
+Font Families with multiple words must have quotes around them.
 
