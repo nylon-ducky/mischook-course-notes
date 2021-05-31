@@ -56,6 +56,9 @@ CSS selector prioritization
  CSS doesnt just go with whatever declaration was set last, but will plaace more importance on an elements id styling.
  an elements individual id styling is prioritized over class or html selectors.
 
+CSS specificity
+ css selectors that are more specific will take precedence over less specific ones
+
 
 CSS selectors
  p .italic vs p.italic
@@ -67,4 +70,25 @@ CSS selectors
   there is also of course the comma seperating selectors which just means anything in this list must be styled like so.
 
 Font Families with multiple words must have quotes around them.
+
+CSS %
+ if you set a tags height as a percentage, the containing tag must have its height  set in pixels. 
+
+ AS IN:
+ it will not just base that percentage off the page size or window size.
+
+Link styling
+ Love & Hate
+ L  link
+ V  visited
+ H  hover
+ A  active
+
+background position
+ instead of clockwise shorthand like other things, the properties are 
+   horizontal then vertical
+
+clear:
+ clears this element past any  floated elements.
+ so if you have an image floating in a page with text around it, the text will avoid or respect the image, but if you use clear on the text, it will get out of the way entirely, past any floated elements. so that theres no test near the picture at all.
 
