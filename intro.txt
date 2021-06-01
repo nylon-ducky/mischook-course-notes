@@ -92,3 +92,33 @@ clear:
  clears this element past any  floated elements.
  so if you have an image floating in a page with text around it, the text will avoid or respect the image, but if you use clear on the text, it will get out of the way entirely, past any floated elements. so that theres no test near the picture at all.
 
+position: static;
+ anything with the default position of static, can not use top: bottom: left: or right: properties. only if position is fixed, relative, or absolute.
+   he didnt cover position sticky
+
+position: fixed;
+ always adjusts its self according to the main viewport.
+
+position: relative;
+ always adjusts its self according to where it was to begin with.
+   it will also scroll with the page.
+
+position: absolute;
+ an element that is positioned  absolutely, is adjusted according to the position of its nearest ancestor or parent that is not static. Usually its inside a tag that has its position set to relative, but fixed is also fine.
+
+<main>
+ internet explorer (although gone since windows 10)
+ does not support the main tag, so for safetys sake, one should still use an aria role of main and display: block;
+
+<nav>
+ just like main, older browsers wont recognize them as tags of their own, so using display block and an aria role would be best practice
+
+specificity
+ remember the rule of specificity when doing media queries. specificity is prioritized over cascade order
+
+background-attatchment: fixed;
+ this creates the super cool window effect 
+
+display: table or table-cell;
+ simulates a tabular style layout without the confusion when it comes to accessibility
+
