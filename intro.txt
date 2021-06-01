@@ -122,3 +122,14 @@ background-attatchment: fixed;
 display: table or table-cell;
  simulates a tabular style layout without the confusion when it comes to accessibility
 
+index.html
+ i didnt know this till a couple months ago, but the home page needs to be named index.html. this will be the first page served up by the server. this is what the server will look for to serve as an appetizer, if you will.
+
+cpanel
+ cpanel is the control panel that stef showed and it looks so much more intuitive than say, aws.
+   this is something i was also really curious about a while back, what is the interface for working with your rented server? well, now i know ... one common one at least.
+
+w3schools
+ I love this site, it's what i primarily used to learn to code. stef seems to be a strong advocate for them even though reddit says the name was tarnished from back in the day.
+       Also apparently it's run by the w3c which really validates my preferance for it! :D
+
