@@ -133,3 +133,24 @@ w3schools
  I love this site, it's what i primarily used to learn to code. stef seems to be a strong advocate for them even though reddit says the name was tarnished from back in the day.
        Also apparently it's run by the w3c which really validates my preferance for it! :D
 
+JS object groups
+ stef had a great chart or illustration showing all the objects inside the classes of window, document, and globals.
+   calling them object groups seemed odd to me, but i get what he's saying.
+      html tags are document objects.
+      data types are global objects. 
+      and the document is part of the window object. as well as screen, navigator, history, and location.
+
+
+parameters vs arguments
+ stefan covered this today in js ch9 ... it was something that really confused me when i was first starting out, but he explained it very well, in plain english, noting that it can be confusing.
+
+
+name= submit
+ theres no good reason to use a name= on a submit button because youll never really need to work with the value of submit after its submitted something
+
+.select()
+ use .select() to get people to correct invalid form  data because it will highlight the incorrect input value.
+
+
+
+
