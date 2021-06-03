@@ -152,5 +152,46 @@ name= submit
  use .select() to get people to correct invalid form  data because it will highlight the incorrect input value.
 
 
+phpinfo()
+  this is a built in function for php that brings up a whole bunch fo info about php. or at least the version you have installed. its super helpful!
+
+ini settings
+ ; a semicolon before a line is a comment but only in the config files.
+   turning on error messages is a smart thing to do to get messages like you would in the browser console when you have an error with js.
+     php.ini 
+     display_errors = on
+     should be turned off once your app is publicly available though.
+ actually, i just looked and the default value is on for this version.
+
+
+php arrays
+ php has indexed arrays, associative arrays, and m ultidimensional arrays.
+   multidimensional arrays are just nested arrays
+   and associative arrays are just name value pairs, using the => operator that i have in my php notes.
+
+
+scandir()
+ scan directory
+   this function or "METHOD" as stef calls it, will scan a file directory and return an array of what it finds.
+
+use echo to print the return value of a function
+
+
+php sessions AKA cookies
+ php sessions track who you are, so they know whos visiting the apps.
+ this is the basis of shopping carts and video game scores and things where the content is different based on who you are. it's also the reason autofill works. this is referred to as maintaining the state.
+      sessions are arrays and they are superglobals
+
+session_start();
+   this should be placed at the very top of the page. before doctype.
+   this creates a tiny text file called a cookie which contains an associative array and also tags your web browser with an individual id, so it knows who you are.
+
+http://localhost/phpmyadmin
+  this is basically a control pannel for xampp
+
+127.0.0.1 is another address for localhost
+
+
+
 
 
