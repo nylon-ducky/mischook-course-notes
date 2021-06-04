@@ -191,7 +191,29 @@ http://localhost/phpmyadmin
 
 127.0.0.1 is another address for localhost
 
+Heredoc
+ this basically acts as a set of quotes, but without the restrictions of using quotes, like using double quotes then having to switch to singles or use escaped characters. think of it like an opening and closing tag.
+   syntax:
+     $myForm = <<<SomeForm
+     <form>
+     <input type="text">
+     </form>
+SomeForm;
+    one key thing is that the ending SomeForm; 
+          (which acts like a closing tag)
+    needs to be touching the left edge of the code editor otherwise it wont work. it will throw an error, and the code will be broken.
 
 
+BLOB
+ a blob in  a database is for storing blobs of data possibly videos or immages, but for some reason its not a good idea to store immages inside a database?
 
+SQL
+  INSERT INTO table-name ('field/column name') VALUES ('input value');
+
+  key words need to be capitalized in SQL commands
+
+  if you forget the WHERE, all fields will be changed
+
+  NUMBERS DO NOT NEED QUOTES
+   but strings do, unless theyre a table name or field name
 
